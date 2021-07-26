@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DigitB
+comment1.params=v\ l
+comment1.target=DigitB(int,\ int)
+comment2.params=v
+comment2.target=void\ setValue(int)
+comment3.params=
+comment3.target=int\ getValue()
+comment4.params=
+comment4.target=void\ increment()
+comment5.params=
+comment5.target=java.lang.String\ display()
+numComments=6

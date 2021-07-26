@@ -1,0 +1,53 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 366 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 4426259 0 96
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2057 1 23155 0 64
+ciMethod java/lang/String length ()I 2081 1 2362769 0 64
+ciMethod java/lang/String toCharArray ()[C 1329 1 53964 0 0
+ciMethod java/lang/String getBytes ([BIB)V 2057 1 17330 0 448
+ciMethod java/lang/String <init> ([BB)V 2057 1 277065 0 256
+ciMethod java/lang/String coder ()B 2169 1 2789627 0 32
+ciMethod java/lang/String isLatin1 ()Z 18649 1 2666767 0 64
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 2049 1 256 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 1161 1 6559 0 448
+ciMethod java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 2113 1 8811 0 896
+ciMethod java/lang/AbstractStringBuilder newCapacity (I)I 665 1 2320 0 0
+ciMethod java/lang/AbstractStringBuilder hugeCapacity (I)I 0 0 1 0 -1
+ciMethod java/lang/AbstractStringBuilder inflate ()V 0 0 62 0 0
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 32769 1 16489 0 1600
+ciMethod java/lang/AbstractStringBuilder appendNull ()Ljava/lang/AbstractStringBuilder; 0 0 1 0 -1
+ciMethod java/lang/AbstractStringBuilder append (I)Ljava/lang/AbstractStringBuilder; 65 1 6829 0 2496
+ciMethod java/lang/AbstractStringBuilder getCoder ()B 6121 1 13164 0 0
+ciMethod java/lang/AbstractStringBuilder isLatin1 ()Z 2257 1 292228 0 64
+ciMethod java/lang/AbstractStringBuilder putStringAt (ILjava/lang/String;)V 3129 1 12786 0 0
+ciMethod java/lang/StringBuilder <init> ()V 1113 1 199571 0 352
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 19257 1 632940 0 1568
+ciMethod java/lang/StringBuilder append (I)Ljava/lang/StringBuilder; 65 1 23729 0 0
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 19745 1 193018 0 960
+ciMethod java/lang/Integer getChars (II[B)I 2049 1 9477 0 -1
+ciMethod java/lang/Integer stringSize (I)I 2049 129 5380 0 -1
+ciMethod java/util/AbstractCollection <init> ()V 2073 1 645470 0 32
+ciMethod java/lang/StringLatin1 toChars ([B)[C 1321 1 53883 0 0
+ciMethod java/lang/StringLatin1 newString ([BII)Ljava/lang/String; 2041 1 258271 0 928
+ciMethod java/lang/StringLatin1 inflate ([BI[CII)V 1097 94649 835 0 -1
+ciMethod java/lang/StringLatin1 inflate ([BI[BII)V 0 0 65 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/Math min (II)I 2881 1 230025 0 -1
+ciMethod java/util/Arrays copyOf ([BI)[B 1185 1 39114 0 544
+ciMethod java/util/Arrays copyOfRange ([BII)[B 2121 1 5468 0 576
+ciMethod java/lang/StringUTF16 newBytesFor (I)[B 0 0 65 0 -1
+ciMethod java/lang/StringUTF16 toChars ([B)[C 9 1 81 0 0
+ciMethod java/lang/StringUTF16 compress ([BII)[B 1073 1 134 0 -1
+ciMethod java/lang/StringUTF16 getChars ([BII[CI)V 9 2049 126 0 -1
+ciMethod java/lang/StringUTF16 newString ([BII)Ljava/lang/String; 0 0 134 0 0
+ciMethod java/lang/StringUTF16 getChars (III[B)I 0 0 1 0 -1
+ciMethodData java/lang/Object <init> ()V 2 4426259 orig 320 160 233 238 250 253 127 0 0 16 6 222 31 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 153 64 28 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 248 3 0 0 248 31 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 254 255 255 255 0 0 0 0 0 0 0 0 data 4 0x0 0x9 0x1 0x0 oops 0 methods 0
+ciMethodData java/lang/String isLatin1 ()Z 2 2666767 orig 320 160 233 238 250 253 127 0 0 0 163 222 31 0 0 0 0 200 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 161 63 69 1 1 0 0 0 26 50 7 0 0 0 0 0 0 0 0 0 248 3 0 0 248 31 0 0 2 0 0 0 0 0 3 0 2 0 0 0 0 0 0 0 88 0 0 0 254 255 255 255 7 0 3 0 0 0 0 0 data 18 0x30007 0x0 0x58 0x28a80c 0x80000006000a0007 0x109 0x38 0x28a70f 0xe0003 0x28a74b 0x18 0x0 0x0 0x0 0x0 0x9 0x1 0x0 oops 0 methods 0
+ciMethodData java/lang/String coder ()B 2 2789627 orig 320 160 233 238 250 253 127 0 0 160 161 222 31 0 0 0 0 168 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 1 0 0 97 127 84 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 248 3 0 0 248 31 0 0 2 0 0 0 0 0 5 0 2 0 0 0 0 0 0 0 56 0 0 0 254 255 255 255 7 0 3 0 0 0 0 0 data 14 0x30007 0x0 0x38 0x2a904f 0xa0003 0x2a907e 0x18 0x0 0x0 0x0 0x0 0x9 0x1 0x0 oops 0 methods 0
+ciMethod java/lang/Enum ordinal ()I 1049 1 131 0 0
+ciMethodData java/util/AbstractCollection <init> ()V 2 645470 orig 320 160 233 238 250 253 127 0 0 192 201 239 31 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 217 194 78 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 248 3 0 0 248 31 0 0 2 0 0 0 0 0 3 0 2 0 0 0 0 0 0 0 16 0 0 0 254 255 255 255 2 0 1 0 0 0 0 0 data 7 0x10002 0x9d867 0x0 0x0 0x9 0x1 0x0 oops 0 methods 0
+ciMethodData java/lang/String length ()I 2 2362769 orig 320 160 233 238 250 253 127 0 0 48 83 222 31 0 0 0 0 184 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 105 100 32 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 248 3 0 0 248 31 0 0 2 0 0 0 0 0 6 0 2 0 0 0 0 0 0 0 56 0 0 0 254 255 255 255 5 0 6 0 0 0 0 0 data 16 0x60005 0x240d0f 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x9 0x1 0xffffffffffffffff oops 0 methods 0
+ciMethodData java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 2 8811 orig 320 160 233 238 250 253 127 0 0 64 46 232 31 0 0 0 0 240 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 1 0 0 25 11 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
